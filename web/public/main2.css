@@ -1,0 +1,113 @@
+/*nav-bar*/
+.cuerpo h2{
+    color: white;
+    font-family:  monospace;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.row{
+    padding-left: 10%;
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+
+
+
+.topnav ul {
+    border-bottom: 1px solid #0f2027;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    max-height: 55px;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.topnav ul li {
+	float: right;
+}
+
+.topnav ul li a {
+    font-size: 18px;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-right: 15px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-family: initial;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.span-logo p {
+	font-size: 24px;
+	text-decoration: none;
+	color: #f2f2f2;
+                  margin-left: 3%;
+                  font-family: initial;
+	float: left;
+	padding-left: 15px; 
+                  padding-top: 10px;
+                  
+}
+
+.topnav ul li a:hover {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.topnav ul li.icon {display: none;}
+
+.topnav.responsive ul li {
+    float: none;
+    display: inline;
+  }
+ .topnav.responsive ul li a {
+    display: block;
+    text-align: left;
+  }
+
+  .titulo1 h1{
+      font-family: initial;
+  }
+  
+body{
+    background-image:url("https://mail.google.com/mail/u/0?ui=2&ik=d31e02f5af&attid=0.1&permmsgid=msg-f:1620479039757259071&th=167d1919dab2913f&view=att&disp=safe&realattid=167d191468e9230635d1");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+        
+}
+
+.cuerpo{
+    background-color: rgba(0,0,0,.6);
+    height: 75.6%;
+    
+}
+
+
+
+.box img{width:100%;height:auto;transition:all .3s}
+.box3 .title{font-size:24px;font-weight:600;color:#88c425;margin:0 0 5px}
+.box3 .post{display:block;margin:0 0 5px;font-size:14px;color:white}
+.box3 .description{font-size:14px;color:white;margin:0 0 20px}
+
+
+.box3 .icon a:hover{text-decoration:none;animation:animate-hover .5s;transition:all .3s}
+
+
+
+
+
